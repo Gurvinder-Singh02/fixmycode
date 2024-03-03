@@ -1,9 +1,8 @@
-// import { UserButton } from "@clerk/nextjs";
- 
-export default function Home() {
+ export default function Home() {
   return (
-    <div className="h-screen">
-     
+    <div >
+      <h1>All Questions </h1>
+
     </div>
   )
 }
