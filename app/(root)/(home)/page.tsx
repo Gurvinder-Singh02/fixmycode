@@ -5,83 +5,13 @@ import NoResult from "@/components/shared/NoResult";
 import LocalSearchbar from "@/components/shared/search/LocalSearchbar";
 import { Button } from "@/components/ui/button";
 import { HomePageFilters } from "@/constants/filters";
+import { getQuestions } from "@/lib/actions/question.action";
 // import { getQuestions } from "@/lib/actions/question.action";
 import Link from "next/link";
 
-const questions = [
-  {
-    _id: "1",
-    title: "How to improve memory retention? and how to fix it without AI",
-    tags: [
-      { _id: "1", name: "memory" },
-      { _id: "2", name: "learning" }
-    ],
-    author: {
-      _id: "1",
-      name: "John Doe",
-      picture: "https://example.com/johndoe.jpg"
-    },
-    upvotes: 20,
-    views: 150,
-    answers: [],
-    createdAt: new Date("2023-12-15")
-  },
-  {
-    _id: "2",
-    title: "Best practices for writing clean code?",
-    tags: [
-      { _id: "3", name: "coding" },
-      { _id: "4", name: "best-practices" }
-    ],
-    author: {
-      _id: "2",
-      name: "Jane Smith",
-      picture: "https://example.com/janesmith.jpg"
-    },
-    upvotes: 35,
-    views: 200,
-    answers: [],
-    createdAt: new Date("2024-01-10")
-  },
-  {
-    _id: "3",
-    title: "How to deploy a React app to production?",
-    tags: [
-      { _id: "5", name: "React" },
-      { _id: "6", name: "deployment" }
-    ],
-    author: {
-      _id: "3",
-      name: "Alice Johnson",
-      picture: "https://example.com/alicejohnson.jpg"
-    },
-    upvotes: 15,
-    views: 100,
-    answers: [],
-    createdAt: new Date("2024-02-20")
-  },
-  {
-    _id: "4",
-    title: "What are the benefits of using TypeScript?",
-    tags: [
-      { _id: "7", name: "TypeScript" },
-      { _id: "8", name: "javascript" }
-    ],
-    author: {
-      _id: "4",
-      name: "Bob Williams",
-      picture: "https://example.com/bobwilliams.jpg"
-    },
-    upvotes: 25,
-    views: 180,
-    answers: [],
-    createdAt: new Date("2024-02-05")
-  }
-];
-
-
 export default async function Home() {
-  // const result = await getQuestions({});
+
+  const result = await getQuestions({});
 
   return (
     <>
@@ -115,8 +45,8 @@ export default async function Home() {
 
       <div className="mt-10 flex w-full flex-col gap-6">
         
-        {questions.length > 0 ?
-          questions.map((question) => (
+        {result.questions.length > 0 ?
+          result.questions.map((question) => (
             <QuestionCard 
               key={question._id}
               _id={question._id}
