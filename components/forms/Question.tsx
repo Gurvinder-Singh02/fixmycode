@@ -36,7 +36,7 @@ const Question = ({ type, mongoUserId, questionDetails }: Props) => {
   const pathname = usePathname();
 
   const parsedQuestionDetails = JSON.parse(questionDetails || "{}");
-  console.log(parsedQuestionDetails);
+  // console.log(parsedQuestionDetails);
   const groupedTags = parsedQuestionDetails.tags.map((tag: any) => tag.name)
 
   // 1. Define your form.

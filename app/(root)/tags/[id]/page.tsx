@@ -12,7 +12,7 @@ const Page = async ({ params, searchParams }: URLProps) => {
     searchQuery: searchParams.q
   })
 
-  console.log(result)
+  // console.log(result)
 
   return (
     <>
