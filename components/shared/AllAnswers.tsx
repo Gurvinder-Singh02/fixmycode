@@ -6,27 +6,29 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getTimestamp } from '@/lib/utils';
 import ParseHTML from './ParseHTML';
-import Votes from './votes';
+import Votes from './Votes';
 
 interface Props {
   questionId: string;
   userId: string;
   totalAnswers: number;
   page?: number;
-  filter?: number;
+  filter?: string;
 }
 
 const AllAnswers = async ({ questionId, userId, totalAnswers, page, filter }: Props) => {
   const result = await getAnswers({
     questionId,
+    page: page ? +page : 1,
+    sortBy: filter,
   })
 
   return (
     <div className="mt-11">
-      <div className="flex items-center justify-between">
-        <h3 className="primary-text-gradient">{totalAnswers} Answers</h3>
+      <div className='flex items-center justify-between'>
+        <h3 className='primary-text-gradient'>{totalAnswers} Answers</h3>
 
-        <Filter filters={AnswerFilters}/>
+        <Filter filters={AnswerFilters} />
       </div>
 
       <div>
