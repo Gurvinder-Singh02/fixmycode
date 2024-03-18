@@ -46,22 +46,22 @@ export const sidebarLinks: SidebarLink[] = [
 
 export const BADGE_CRITERIA = {
   QUESTION_COUNT: {
-    BRONZE: 10,
+    BRONZE: 2,
     SILVER: 50,
     GOLD: 100,
   },
   ANSWER_COUNT: {
-    BRONZE: 10,
+    BRONZE: 2,
     SILVER: 50,
     GOLD: 100,
   },
   QUESTION_UPVOTES: {
-    BRONZE: 10,
+    BRONZE: 2,
     SILVER: 50,
     GOLD: 100,
   },
   ANSWER_UPVOTES: {
-    BRONZE: 10,
+    BRONZE: 2,
     SILVER: 50,
     GOLD: 100,
   },
