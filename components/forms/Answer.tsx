@@ -70,8 +70,6 @@ const Answer = ({ question, questionId, authorId }: Props) => {
 
       const aiAnswer = await response.json();
 
-     console.dir(aiAnswer)
-
       // Convert plain text to HTML format
 
       const formattedAnswer = aiAnswer.reply.replace(/\n/g, '<br />');
@@ -99,13 +97,6 @@ const Answer = ({ question, questionId, authorId }: Props) => {
         >
           {isSubmittingAI ? (
             <>
-             <Image 
-                src="/assets/icons/stars.svg"
-                alt="star"
-                width={12}
-                height={12}
-                className="object-contain"
-              /> 
             Generating...
             </>
           ) : (
@@ -156,7 +147,7 @@ const Answer = ({ question, questionId, authorId }: Props) => {
                     'alignright alignjustify | bullist numlist',
                     content_style: 'body { font-family:Inter; font-size:16px }',
                     skin: mode === 'dark' ? 'oxide-dark' : 'oxide',
-                    content_css: mode === 'dark' ? 'dark' : 'light',
+                    content_css: mode === 'dark' ? 'dark' : 'light', 
                   }}
                 />
                 </FormControl>
