@@ -44,4 +44,5 @@ const ParseHTML = ({ data }: Props) => {
   )
 }
 
+
 export default ParseHTML
