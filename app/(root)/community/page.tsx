@@ -9,7 +9,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Community | Dev Overflow',
+  title: 'Community | Fix MyCode',
 }
 
 const Page = async ({ searchParams }: SearchParamsProps) => {
