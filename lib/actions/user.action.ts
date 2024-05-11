@@ -243,7 +243,11 @@ export async function getUserInfo(params: GetUserByIdParams) {
 
     const { userId } = params;
 
-    const user = await User.findOne({ clerkId: userId });
+    console.log("this is ser ----- " , userId)
+
+    const user = await User.findOne({ _id: userId });
+
+    console.log("-xxxx",user)
 
     if(!user) {
       throw new Error('User not found');
