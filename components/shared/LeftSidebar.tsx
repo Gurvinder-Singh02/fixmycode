@@ -9,6 +9,7 @@ import { SignedOut, useAuth } from '@clerk/nextjs';
 
 const LeftSidebar = () => {
   const { userId } = useAuth();
+  console.log("thishfjsdhfjlahjdlksf",userId)
   const pathname = usePathname();
   
   return (
