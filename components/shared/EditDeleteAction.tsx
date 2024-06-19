@@ -19,8 +19,14 @@ const EditDeleteAction = ({ type, itemId }: Props) => {
   };
 
   const handleDelete = async () => {
+
+    const input = confirm('Do You want to Delete ?');
+    if (!input) {
+        return; 
+    }
     if(type === 'Question') {
       // Delete question
+      
       await deleteQuestion({ 
         questionId: JSON.parse(itemId), 
         path: pathname 

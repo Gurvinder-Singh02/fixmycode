@@ -17,6 +17,9 @@ const Page = async ({ params, searchParams}: URLProps) => {
   const { userId: clerkId } = auth();
   const userInfo = await getUserInfo({ userId: params.id})
 
+
+  console.log("we are in question deatila page and we have",clerkId,userInfo)
+
   return (
     <>
       <div className="flex flex-col-reverse items-start justify-between sm:flex-row">
