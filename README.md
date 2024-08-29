@@ -20,17 +20,3 @@ Welcome to **Fix My Code**, a revolutionary web application designed to elevate 
 
 - **Walkthrough Video:** Get a complete tour of "Fix My Code" and see all its features in action. [Watch Here](https://lnkd.in/g_HPbsQE)
 - **Promo Video:** Check out the promotional video to learn more about the platform. [Watch Here](https://lnkd.in/g_HPbsQE)
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Ensure you have **Node.js** and **npm** (or **yarn**) installed on your machine.
-
-### Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/fix-my-code.git
