@@ -18,5 +18,5 @@ Welcome to **Fix My Code**, a revolutionary web application designed to elevate 
 
 ## 🎥 Watch the Videos
 
-- **Walkthrough Video:** Get a complete tour of "Fix My Code" and see all its features in action. [Watch Here](https://lnkd.in/g_HPbsQE)
-- **Promo Video:** Check out the promotional video to learn more about the platform. [Watch Here](https://lnkd.in/g_HPbsQE)
+- **Walkthrough Video:** Get a complete tour of "Fix My Code" and see all its features in action. [Watch Here](https://www.linkedin.com/feed/update/urn:li:activity:7215157510729605120/)
+- **Promo Video:** Check out the promotional video to learn more about the platform. [Watch Here](https://www.linkedin.com/feed/update/urn:li:activity:7211699765669974016/)
