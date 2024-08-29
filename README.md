@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 Fix My Code 🌟
 
-## Getting Started
+Welcome to **Fix My Code**, a revolutionary web application designed to elevate your coding experience! This platform is built to make coding more efficient, collaborative, and enjoyable for developers of all skill levels. Inspired by real-world experience working on projects for Apple Inc. at RMSI, **Fix My Code** integrates cutting-edge technologies and offers features that cater to all your coding needs.
 
-First, run the development server:
+![Fix My Code Thumbnail](https://res.cloudinary.com/di6xkdtqb/image/upload/v1720724799/Portfolio/kpncjznukqzznfadfal8.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **🔐 Seamless One-Click Authentication:** Effortlessly sign in with Google, GitHub, or Email OTP using Clerk for secure access.
+- **🧠 Intelligent Recommendations:** Our custom algorithm learns from your activity to provide personalized content.
+- **🌐 Global Search:** Powerful real-time search to find anything, anywhere on the platform.
+- **🤖 AI-Generated Answers:** Quick, intelligent responses with our AI assistant, powered by OpenAI.
+- **💬 Comprehensive Question Details:** Markdown support with code blocks for clear and detailed questions and answers.
+- **🌓 Dark and Light Mode:** Switch between dark and light themes to suit your preference.
+- **📱 Fully Mobile Responsive Design:** Seamless experience on any device.
+- **👍 Interactive Voting and Reputation System:** Upvote and downvote to earn reputation points and badges.
+- **🏷️ Advanced Tagging and Filtering:** Easily search and filter popular tags to find relevant content.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎥 Watch the Videos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Walkthrough Video:** Get a complete tour of "Fix My Code" and see all its features in action. [Watch Here](https://lnkd.in/g_HPbsQE)
+- **Promo Video:** Check out the promotional video to learn more about the platform. [Watch Here](https://lnkd.in/g_HPbsQE)
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+To get a local copy up and running, follow these simple steps.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Ensure you have **Node.js** and **npm** (or **yarn**) installed on your machine.
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/fix-my-code.git
